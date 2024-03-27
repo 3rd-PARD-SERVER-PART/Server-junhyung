@@ -5,5 +5,10 @@
 
 ##### hw1
 [src-link](pardserver/hw/hw1)
+<br>
+[junhyung-controller](pardserver/hw/hw1/src/main/java/com/pard/firstseminar/controller/JunhuyungController.java)
+<br>
 [result-images](pardserver/hw/hw1/result-screenshots)
+<br>
+
 
