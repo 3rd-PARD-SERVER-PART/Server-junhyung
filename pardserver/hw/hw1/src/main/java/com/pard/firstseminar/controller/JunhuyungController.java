@@ -5,8 +5,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/junhyung")
 public class JunhuyungController {
+    
+    @RequestMapping("/junhyung")
     public String requestInfo(
             @RequestParam(defaultValue = "친구이름") String name,
             @RequestParam(defaultValue = "23") Integer age,
