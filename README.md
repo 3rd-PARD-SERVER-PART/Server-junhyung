@@ -4,7 +4,6 @@
 
 
 ##### hw1
-pardserver/hw/hw1
+[src-link](pardserver/hw/hw1)
+[result-images](pardserver/hw/hw1/result-screenshots)
 
-result-screenshots 
-pardserver/hw/hw1/result-screenshots
