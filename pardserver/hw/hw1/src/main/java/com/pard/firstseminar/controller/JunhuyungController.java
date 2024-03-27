@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class JunhuyungController {
     public String requestInfo(
             @RequestParam(defaultValue = "친구이름") String name,
-            @RequestParam(defaultValue = "친구나이") Integer age,
+            @RequestParam(defaultValue = "23") Integer age,
             @RequestParam(defaultValue = "친구전공") String major,
             @RequestParam(defaultValue = "친구취미") String hobby
     ){
