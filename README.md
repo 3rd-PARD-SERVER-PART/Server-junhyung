@@ -15,5 +15,5 @@
 ##### hw2
 [src-link](pardserver/hw/hw2)
 <br>
-[result-images](pardserver/hw/hw2/result-screenshots)
+[result-images](pardserver/hw/hw2/result-images)
 <br>
