@@ -1,4 +1,5 @@
 # result images
 
 
-<img src = "pardserver/hw/hw3/result-images/create_read.png" width=400>
+
+![create-read](pardserver/hw/hw3/result-images/create_read.png)
