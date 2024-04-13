@@ -17,3 +17,10 @@
 <br>
 [result-images](pardserver/hw/hw2/result-images)
 <br>
+
+
+##### hw2
+[src-link](pardserver/hw/hw3)
+<br>
+[result-images](pardserver/hw/hw3/result-images)
+<br>
