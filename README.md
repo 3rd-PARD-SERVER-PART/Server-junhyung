@@ -19,7 +19,7 @@
 <br>
 
 
-##### hw2
+##### hw3
 [src-link](pardserver/hw/hw3)
 <br>
 [result-images](pardserver/hw/hw3/result-images)
