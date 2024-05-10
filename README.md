@@ -24,3 +24,11 @@
 <br>
 [result-images](pardserver/hw/hw3/result-images)
 <br>
+
+##### hw4
+[src-link](pardserver/hw/hw4)
+<br>
+
+##### hw5
+[src-link](pardserver/hw/hw5)
+<br>
