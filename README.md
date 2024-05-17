@@ -30,5 +30,8 @@
 <br>
 
 ##### hw5
+###### part 1 
 [src-link](pardserver/hw/hw5)
 <br>
+###### part 2 
+[src-link](pardserver/hw/hw5-2)
