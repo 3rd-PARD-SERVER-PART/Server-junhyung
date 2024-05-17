@@ -34,4 +34,4 @@
 [src-link](pardserver/hw/hw5)
 <br>
 ###### part 2 
-[src-link](pardserver/hw/hw5-2)
+[src-link](pardserver/hw5-2)
