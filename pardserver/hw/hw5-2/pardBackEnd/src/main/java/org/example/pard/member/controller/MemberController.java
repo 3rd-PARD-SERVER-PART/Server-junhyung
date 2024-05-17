@@ -17,7 +17,7 @@ import java.util.List;
 // 최종 렌더링을 도와준다.
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/pard")
+@RequestMapping("/pard") // '/pard' is the base path 
 //@CrossOrigin(origins = "*")
 //@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
 //@CrossOrigin(origins = {"http://localhost:3000","http://localhost:3001"}, allowCredentials = "true")

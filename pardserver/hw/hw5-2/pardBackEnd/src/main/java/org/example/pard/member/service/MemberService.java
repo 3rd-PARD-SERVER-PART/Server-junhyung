@@ -19,7 +19,7 @@ public class MemberService {
     // for using methods in Repo
     private final MemberRepo memberRepo;
 
-    // 
+    // method for creating member 
     public void createMember(MemberCreateDTO dto) {
         memberRepo.save(new Member().toEntity(dto));
     }
@@ -27,6 +27,7 @@ public class MemberService {
     public MemberReadDTO findById(Long id) {
         return new MemberReadDTO().toDTO(memberRepo.findById(id).orElseThrow());
     }
+    //Find Member by ID
 
     public List<MemberReadDTO> findAll() {
         return memberRepo.findAll()
@@ -34,7 +35,9 @@ public class MemberService {
                 .map(member -> new MemberReadDTO().toDTO(member))
                 .collect(Collectors.toList());
     }
+    //  list all the Member DTOs 
 
+    //Find Member(s) by part
     public List<MemberReadDTO> findByPart(String part) {
         return memberRepo.findByPart(part)
                 .stream()
@@ -42,11 +45,12 @@ public class MemberService {
                 .collect(Collectors.toList());
     }
 
+    //delete member by id 
     public void deleteById(Long id) {
         memberRepo.deleteById(id);
     }
 
-
+    //update member by id 
     public void update(Long id, MemberCreateDTO memberCreateDTO){
         Member member = memberRepo.findById(id).get();
 
