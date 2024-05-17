@@ -5,6 +5,7 @@ import lombok.Getter;
 
 // 멤버 DTO (repo 를 제외한 모든 부분 (비즈니스 로직 등등) 을 처리할때 DTO 형태로 처리됨))
 // create 를 위해 만들어둔 DTO
+// id value is automatically handled by JPA
 @Getter
 public class MemberCreateDTO {
 

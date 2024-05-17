@@ -8,5 +8,5 @@ import java.util.List;
 
 // DB 와 소통할때 사용되는 부분. JPA 가 자동으로 처리해줌.
 public interface MemberRepo extends JpaRepository<Member, Long> {
-   List<Member> findByPart(String part);
+   List<Member> findByPart(String part); // JPA 가 적절한 query 생성해줌 (Spring Data JPA, Query Creation)
 }

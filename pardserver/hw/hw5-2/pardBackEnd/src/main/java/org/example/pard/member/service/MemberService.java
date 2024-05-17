@@ -15,8 +15,11 @@ import java.util.stream.Collectors;
 @Service
 @RequiredArgsConstructor
 public class MemberService {
+
+    // for using methods in Repo
     private final MemberRepo memberRepo;
 
+    // 
     public void createMember(MemberCreateDTO dto) {
         memberRepo.save(new Member().toEntity(dto));
     }
